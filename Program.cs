@@ -7,4 +7,8 @@
 // Console.WriteLine($"64-битная OC: {Environment.Is64BitOperatingSystem}");
 
 
-Console.WriteLine($"Логических процессоров: {Environment.ProcessorCount}");
+// Console.WriteLine($"Логических процессоров: {Environment.ProcessorCount}");
+
+
+Console.WriteLine($"Память процесса (WorkingSet): {Environment.WorkingSet / 1024 / 1024} МБ");
+Console.WriteLine($"PID процесса: {Environment.ProcessId}");
